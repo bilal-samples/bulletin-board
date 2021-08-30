@@ -2,8 +2,8 @@
 version: '3.2'
 services:
 
-  qa-sample-site:
-    image: bilalnpe/react-springboot-starter:latest
+  bulletin-board:
+    image: bilalnpe/bulletin-board:latest
     container_name: sample-site
     ports:
       - "8080:8080"
